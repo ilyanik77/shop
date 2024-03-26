@@ -1,0 +1,26 @@
+.order {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.order img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.order h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.order p {
+    color: #797979;
+    font-weight: 600;
+}
+
+.empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
