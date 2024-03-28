@@ -1,13 +1,24 @@
-.item {
-    width: 45%;
-    margin-bottom: 50px;
-    background: #f5f5f5;
-    overflow: hidden;
+.full-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.8);
+}
+.full-item > div {
+    width: 600px;
     position: relative;
-    padding-bottom: 30px;
+    padding: 40px 30px;
+    margin: 10% auto;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
-.item img {
+.full-item img {
     margin-bottom: 50px;
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -15,16 +26,16 @@
     cursor: pointer;
 }
 
-.item img:hover {
+.full-item img:hover {
     transform: scale(1.15);
 }
 
-.item h2, .item p, .item b {
+.full-item h2, .full-item p, .full-item b {
     margin: 10px 20px;
     color: #333;
 }
 
-.item b {
+.full-item b {
     color: green;
 }
 

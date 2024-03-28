@@ -49,6 +49,14 @@ header {
     z-index: 1000;
 }
 
+.summa {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .presentation {
 	margin: 50px auto;
 	background: url('./../../img/bg.jpeg') no-repeat;
